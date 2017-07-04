@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.luisangel.zapotlanejoapp.Zapotlanejoweb"
+    tools:showIn="@layout/activity_zapotlanejoweb">
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:background="@android:color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="5dp">
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal"
+            android:theme="@style/LinearProgress"
+            android:indeterminate="false"
+            android:layout_width="wrap_content"
+            android:layout_height="8dp"
+            android:layout_marginTop="3dp"
+            android:background="@android:color/transparent"
+            android:progress="20"
+            />
+    </FrameLayout>
+
+    <!--Creacion de WebView para mostrar paginas web-->
+    <WebView
+        android:id="@+id/webview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </WebView>
+
+</LinearLayout>

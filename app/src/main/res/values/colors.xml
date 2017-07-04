@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#bf6000</color>
+    <color name="colorPrimaryDark">#ff8000</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="ViewBg">#f1f5f8</color>
+    <color name="album_title">#4c4c4c</color>
+    <color name="indigo">#4b0082</color>
+    <color name="pink">#ff69b4</color>
+</resources>
